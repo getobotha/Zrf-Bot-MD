@@ -7,50 +7,64 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-global.botnumber = "*『🍷𝐌𝐀𝐑𝐘𝐍┊🤖┊𝐁𝐎𝐓🍷』*"
-global.confirmCode = ""
-
-global.owner = [['201280244814', '⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩', true],
+global.owner = [
+  ['2180910009997', '👑 Mystic - Creador 👑', true],
+  ['218910009997', '💫 غيتو/عبد المالك -  1 💫', true],
+  ['212776744590', '💫 Mystic - Collaborator 2 💫', true],
+  ['17786503211', '💫 Mystic - Collaborator 3 💫', true],
+  ['212679305349', '💫 Mystic - Collaborator 4 💫', true],
+  ['97450042742', '💫 Mystic - Collaborator 5 💫', true],
+  ['966504932696', '💫 Mystic - Collaborator 6 💫', true],
+  ['966536242701', '💫 Mystic - Collaborator 7 💫', false],
+  ['212630641831', '💫 Mystic - Collaborator 8 💫', true],
+  ['2180910009997'],
+  ['212630641831'],
+  ['966536242701'],
+  ['97450042742'],
+  ['966504932696'],
+  ['212679305349'],
+  ['17786503211'],
+  ['212776744590'],
+  ['2180910009997'],
+  ['2180910009997'], 
+  ['2180910009997']
 ];
 
-global.suittag = ['201280244814'];
-global.prems = ['201280244814'];
+global.suittag = ['2180910009997'];
+global.prems = ['2180910009997'];
 
-global.packname = '🍷𝐌𝐀𝐑𝐘𝐍┊🤖┊𝐁𝐎𝐓🍷';
-global.author = '🍷𝐌𝐀𝐑𝐘𝐍┊🤖┊𝐁𝐎𝐓🍷';
-global.wm = '🍷𝐌𝐀𝐑𝐘𝐍┊🤖┊𝐁𝐎𝐓🍷';
-global.titulowm = '🍷𝐌𝐀𝐑𝐘𝐍┊🤖┊𝐁𝐎𝐓🍷';
-global.titulowm2 = `🍷𝐌𝐀𝐑𝐘𝐍┊🤖┊𝐁𝐎𝐓🍷`
-global.igfg = '🍷𝐌𝐀𝐑𝐘𝐍┊🤖┊𝐁𝐎𝐓🍷';
-global.wait = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
+global.packname = '(☜ﾟ.ﾟ)☜';
+global.author = '★مصنوع من قبل بوت غيتو .★';
+global.wm = '★مصنوع من قبل بوت غيتو 4★';
+global.igfg = '★مصنوع من قبل بوت غيتو .★';
+global.wait = '*[❗] جاري التحميل انتظر لحظات ياحب غيتو....*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
 global.imagen4 = fs.readFileSync('./Menu.png');
 global.imagen5 = fs.readFileSync('./src/+18.jpg');
-global.imagen6 = fs.readFileSync('./Menu3.png');
 
 global.mods = [];
 
 //* *******Tiempo***************
 global.d = new Date(new Date + 3600000);
-global.locale = 'ar';
+global.locale = 'es';
 global.dia = d.toLocaleDateString(locale, {weekday: 'long'});
-global.fecha = d.toLocaleDateString('ar', {day: 'numeric', month: 'numeric', year: 'numeric'});
-global.mes = d.toLocaleDateString('ar', {month: 'long'});
-global.año = d.toLocaleDateString('ar', {year: 'numeric'});
-global.tiempo = d.toLocaleString('ar-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
+global.fecha = d.toLocaleDateString('es', {day: 'numeric', month: 'numeric', year: 'numeric'});
+global.mes = d.toLocaleDateString('es', {month: 'long'});
+global.año = d.toLocaleDateString('es', {year: 'numeric'});
+global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\n🍷𝐌𝐀𝐑𝐘𝐍┊🤖┊𝐁𝐎𝐓🍷`;
-global.gt = '🍷𝐌𝐀𝐑𝐘𝐍┊🤖┊𝐁𝐎𝐓🍷';
-global.mysticbot = '🍷𝐌𝐀𝐑𝐘𝐍┊🤖┊𝐁𝐎𝐓🍷';
-global.md = 'https://chat.whatsapp.com/H93YpO0LkJNHoTmtIhcL1z';
-global.mysticbot = 'atom.bio/harley_light';
-global.waitt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
-global.waittt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
-global.waitttt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
-global.nomorown = '201280244814';
+global.wm2 = `▸ ${dia} ${fecha}\n▸ بوت غيتو .`;
+global.gt = '★بوت غيتو .★';
+global.mysticbot = '★بوت غيتو .★';
+global.md = 'غيتو بوت';
+global.mysticbot = 'غيتو بوت';
+global.waitt = '*[❗] جاري التحميل انتظر لحظات ياحب غيتو....*';
+global.waittt = '*[❗] جاري التحميل انتظر لحظات ياحب غيتو....*';
+global.waitttt = '*[❗] جاري التحميل انتظر لحظات ياحب غيتو....*';
+global.nomorown = '218091000997';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
@@ -65,8 +79,8 @@ global.htki = '*⭑•̩̩͙⊱•••• ☪*';
 global.htka = '*☪ ••••̩̩͙⊰•⭑*';
 global.comienzo = '• • ◕◕════';
 global.fin = '════◕◕ • •';
-global.botdate = `*[ 📅 ] التاريخ:*  ${moment.tz('Egypt/cairo_city').format('DD/MM/YY')}`;
-global.bottime = `*[ ⏳ ] الوقت:* ${moment.tz('Egypt/cairo_city').format('HH:mm:ss')}`;
+global.botdate = `*[ 📅 ] Fecha:*  ${moment.tz('America/Mexico_City').format('DD/MM/YY')}`;
+global.bottime = `*[ ⏳ ] Hora:* ${moment.tz('America/Mexico_City').format('HH:mm:ss')}`;
 global.fgif = {key: {participant: '0@s.whatsapp.net'}, message: {'videoMessage': {'title': wm, 'h': `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./Menu.png')}}};
 global.multiplier = 99;
 global.flaaa = [
